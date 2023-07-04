@@ -17,6 +17,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "mutli-misc"
 
+// libs
+include(":libs:some-lombok")
+
 // apps
 include(":apps:memcached")
 
