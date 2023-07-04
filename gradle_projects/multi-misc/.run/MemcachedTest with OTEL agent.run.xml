@@ -1,0 +1,31 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MemcachedTest with OTEL agent" type="GradleRunConfiguration" factoryName="Gradle">
+    <ExternalSystemSettings>
+      <option name="env">
+        <map>
+          <entry key="JAVA_TOOL_OPTIONS" value="-javaagent:/change-me/opentelemetry-javaagent.jar -Dotel.instrumentation.spymemcached.enabled=true -Dotel.javaagent.debug=true" />
+        </map>
+      </option>
+      <option name="executionName" />
+      <option name="externalProjectPath" value="$PROJECT_DIR$" />
+      <option name="externalSystemIdString" value="GRADLE" />
+      <option name="scriptParameters" value="" />
+      <option name="taskDescriptions">
+        <list />
+      </option>
+      <option name="taskNames">
+        <list>
+          <option value=":apps:memcached:test" />
+          <option value="--tests" />
+          <option value="&quot;com.digma.arik.MemcachedTest&quot;" />
+        </list>
+      </option>
+      <option name="vmOptions" value="-DZZotel.instrumentation.spymemcached.enabled=false -DZZotel.javaagent.debug=true" />
+    </ExternalSystemSettings>
+    <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+    <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+    <DebugAllEnabled>false</DebugAllEnabled>
+    <ForceTestExec>true</ForceTestExec>
+    <method v="2" />
+  </configuration>
+</component>
