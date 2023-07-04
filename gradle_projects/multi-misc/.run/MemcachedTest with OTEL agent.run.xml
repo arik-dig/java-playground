@@ -20,7 +20,7 @@
           <option value="&quot;com.digma.arik.MemcachedTest&quot;" />
         </list>
       </option>
-      <option name="vmOptions" value="-DZZotel.instrumentation.spymemcached.enabled=false -DZZotel.javaagent.debug=true" />
+      <option name="vmOptions" value="" />
     </ExternalSystemSettings>
     <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
     <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
