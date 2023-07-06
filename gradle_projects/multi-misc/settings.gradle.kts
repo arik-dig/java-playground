@@ -22,5 +22,6 @@ include(":libs:some-lombok")
 
 // apps
 include(":apps:memcached")
+include(":apps:spring-boot-service1")
 
 // benchmark
