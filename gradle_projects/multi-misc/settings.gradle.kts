@@ -23,6 +23,7 @@ include(":libs:some-lombok")
 // apps
 include(":apps:memcached")
 include(":apps:spring-boot-service1")
+include(":apps:spring-batch-service3")
 include(":apps:open-liberty-service2:start")
 include(":apps:open-liberty-service2:finish")
 
